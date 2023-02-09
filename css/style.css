@@ -16,13 +16,12 @@ a {
   height: 100vh;
   width: 100vh;
   margin-left: 20vw;
+  margin-right: 20vw;
 }
-.content {
-  display: grid;
-  columns: 1;
-  justify-content: center;
+h2 {
+  width: fit-content;
 }
-.Discord {
+.cardlinks {
   text-decoration: underline;
 }
 .card-container {
@@ -30,10 +29,20 @@ a {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 8px;
+  padding-top: 2.5vh;
+}
+#into-text {
+  padding-top: 5vh;
+  font-size: x-large;
+}
+#komi {
+  height: 50vh;
+  aspect-ratio: 9 / 16;
 }
 .card {
   width: 33vw;
   background-color: rgb(25, 25, 25);
   padding: 1vw;
   border-radius: 40px;
+  font-size: larger;
 }
